@@ -1,0 +1,38 @@
+Sehr geehrte Herren,
+
+danke für den Upload des Entwurfs und entschuldigen Sie
+bitte, dass ich erst jetzt zur Durchsicht gekommen bin.
+Hier meine Hinweise/Anmerkungen:
+- besteht die Gruppe 4 nur aus zwei Personen? Laut Liste
+sind Sie ja zu dritt. Ich hoffe doch, alle Mitglieder haben
+daran irgendwie mitgewirkt und
+sollten genannt sein?!
+- Anwendung ist also Einkaufszentrum auch während der
+Öffnungszeiten und ein paar Angaben zur Umgebung sind
+enthalten; 
+- Signaltöne sollen warnen. Bedienungsanleitung ist
+angedacht.
+- wie steht es mit Treppenabgängen? Soll eine
+Bodenmarkierung verwendet werden oder sind Treppen
+ausgeschlossen? 
+- "virtuelle" Technische Daten: Baugröße, Masse,
+Geschwindigkeit, ... ?
+- bisher noch ziemlich unvollständig; wie steht es mit
+einem Risiko-Graphen und der dem Ergebnis entsprechenden
+Safety-Architektur aus? 
+- Bsp.: Redundanz bei den Sensoren zur Fehlerbeherrschung? 
+Sie ist ja nur dann nützlich, wenn Fehler rechtzeitig
+erkannt werden. Wie
+soll die Fehlererkennung implementiert werden und welche
+Fehler können wann erkannt werden?
+- nützlich wären vielleicht z.B. FMEA und Erläuterung des
+Vorgehensmodells bei der Entwicklung?
+- schauen Sie sich bitte die Hinweise unter
+https://lea.hochschule-bonn-rhein-sieg.de/goto.php?target=fold_363355&client_id=db_040811
+mal an!
+- redaktionell: Rechtschreibung bzw. Groß-/Kleinschreibung
+und Zeichensetzung sind noch mangelhaft.
+
+Viele Grüße
+
+Norbert Jung

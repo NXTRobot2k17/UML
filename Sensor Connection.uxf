@@ -4,12 +4,13 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>440</x>
-      <y>320</y>
+      <x>450</x>
+      <y>300</y>
       <w>80</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>NXT
+    <panel_attributes>lw=2
+NXT
 -
 Main Brick
 </panel_attributes>
@@ -18,20 +19,8 @@ Main Brick
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>320</x>
-      <y>160</y>
-      <w>110</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lw=2
-Engine left</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>540</x>
-      <y>160</y>
+      <x>330</x>
+      <y>140</y>
       <w>110</w>
       <h>40</h>
     </coordinates>
@@ -42,12 +31,24 @@ Engine right</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>260</x>
-      <y>480</y>
+      <x>550</x>
+      <y>140</y>
       <w>110</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>type=actclass
+    <panel_attributes>lw=2
+Engine left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>460</y>
+      <w>110</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lw=2
 Bumper left
 </panel_attributes>
     <additional_attributes/>
@@ -55,12 +56,12 @@ Bumper left
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>600</x>
-      <y>480</y>
+      <x>370</x>
+      <y>460</y>
       <w>110</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>type=actclass
+    <panel_attributes>lw=2
 Bumper right
 </panel_attributes>
     <additional_attributes/>
@@ -68,12 +69,12 @@ Bumper right
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
-      <y>320</y>
+      <x>630</x>
+      <y>460</y>
       <w>110</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>type=actclass
+    <panel_attributes>lw=2
 Ultra Sonic 
 wave sensor
 </panel_attributes>
@@ -82,12 +83,12 @@ wave sensor
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>670</x>
-      <y>320</y>
+      <x>500</x>
+      <y>460</y>
       <w>110</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>type=actclass
+    <panel_attributes>lw=2
 Light senesor
 </panel_attributes>
     <additional_attributes/>
@@ -95,67 +96,73 @@ Light senesor
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
-      <y>190</y>
+      <x>390</x>
+      <y>170</y>
       <w>100</w>
       <h>150</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;-
+A</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;70.0;80.0;70.0;80.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>490</x>
-      <y>190</y>
+      <x>500</x>
+      <y>170</y>
       <w>100</w>
       <h>150</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;-
+C</panel_attributes>
     <additional_attributes>80.0;10.0;80.0;70.0;10.0;70.0;10.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
-      <y>330</y>
-      <w>180</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>510</x>
-      <y>330</y>
-      <w>180</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>160.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>320</x>
-      <y>360</y>
-      <w>160</w>
+      <x>500</x>
+      <y>340</y>
+      <w>200</w>
       <h>140</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;120.0;10.0;70.0;140.0;70.0;140.0;10.0</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;-
+4</panel_attributes>
+    <additional_attributes>180.0;120.0;180.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>490</x>
-      <y>360</y>
-      <w>170</w>
+      <y>340</y>
+      <w>80</w>
       <h>140</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>150.0;120.0;150.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;-
+3</panel_attributes>
+    <additional_attributes>60.0;120.0;60.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>340</y>
+      <w>200</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+1</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;50.0;180.0;50.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>340</y>
+      <w>80</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+2</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;80.0;60.0;80.0;60.0;10.0</additional_attributes>
   </element>
 </diagram>
